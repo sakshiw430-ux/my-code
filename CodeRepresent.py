@@ -73,17 +73,4 @@ print("Variance:", round(variance,2))
 print("Standard Deviation:", round(std_dev,2))
 
 
-import matplotlib.pyplot as plt
 
-# Data
-x = ["1000-2000", "2000-3000", "3000-4000", "4000-5000", "5000-6000"]
-y = [5, 9, 14, 8, 4]
-
-# Bar graph
-plt.bar(x, y)
-
-plt.xlabel("Expense Range")
-plt.ylabel("Students")
-plt.title("Monthly Expense Graph")
-
-plt.show()

@@ -1,8 +1,7 @@
 
 import math
 # DATA (Real-life example: Monthly expenses of Students)
-midpoints = [1500
-             , 2500, 3500, 4500, 5500]
+midpoints = [1500 , 2500, 3500, 4500, 5500]
 #Midpoints represent the mid-value of each class interval (e.g., 1000-2000 => 1500, 2000-3000 => 2500, etc.)
 f = [5, 9, 14, 8, 4]
 #Frequency (f) represents the number of students in each class interval.
